@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: din;
+}
 
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -11,5 +14,12 @@ body{
 }
 
 main{
-    padding: 3rem;
+    padding: 5rem;
+}
+
+// mobile view
+@media screen and (max-width: 768px){
+    main{
+        padding: 2rem;
+    }
 }

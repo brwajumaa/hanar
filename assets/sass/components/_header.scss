@@ -6,7 +6,7 @@ header{
     align-items: center;
     width: 100%;
     height: max-content;
-    background-color: $header-background;
+    background: linear-gradient($header-background);
     color: #fff;
     box-shadow: $shadow;
     font-family: $feather ;
@@ -25,5 +25,29 @@ header{
     p{
         font-size: 4rem;
         text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.05);
+    }
+}
+
+// mobile view
+@media screen and (max-width: 768px){
+    header{
+        padding: 0 1rem;
+        height: max-content;
+    }
+
+    .intro{
+        padding: 2rem 1rem;
+        text-align: center;
+
+        h1{
+            
+            font-size: 4rem;
+            text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.1);
+        }
+
+        p{
+            font-size: 3rem;
+            text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.05);
+        }
     }
 }

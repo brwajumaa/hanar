@@ -1,0 +1,29 @@
+header{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: $header-background;
+    color: #fff;
+    box-shadow: $shadow;
+    font-family: $feather ;
+}
+
+.intro{
+    padding: 2rem 4rem;
+    text-align: center;
+
+    h1{
+        
+        font-size: 8rem;
+        text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.1);
+    }
+
+    p{
+        font-size: 4rem;
+        text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.05);
+    }
+}

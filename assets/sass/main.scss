@@ -13,10 +13,11 @@
 @import 'fonts';
 
 // components (button, card, navbar etc)
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/footer';
 @import 'components/card';
 @import 'components/button';
-@import 'components/navbar';
-@import 'components/header';
 
 // utilities (margin, padding, opacity, etc)
 @import 'utilities';

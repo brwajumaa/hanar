@@ -1,0 +1,22 @@
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+    gap: 25rem;
+    height: max-content ;
+    background-color: #fff;
+    box-shadow: $button-shadow;
+    border-radius: 1rem;
+
+    h3{
+        font-size: 3rem;
+        color: $main;
+        padding: 2rem 0;
+        text-shadow: 0 0 .5rem rgb(0, 0, 0, 0.1);
+    }
+    p{
+        font-size: 1.3rem;
+        padding: 1rem 0;
+    }
+}

@@ -4,6 +4,10 @@
     grid-template-columns: repeat(auto-fit, minmax(20rem, 3fr));
     grid-gap: 2rem;
 
+
+    a{
+        text-decoration: none;
+    }
 }
 
 .card{
@@ -60,6 +64,8 @@
 
         }
     }
+
+
     
 }
 
